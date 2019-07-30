@@ -1,0 +1,4 @@
+name: Render Proxy
+type: module
+description: 'Allows you to intercept and manipulate all render service calls.'
+core: '8.x'

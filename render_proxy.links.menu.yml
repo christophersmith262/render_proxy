@@ -1,0 +1,5 @@
+render_proxy.config.filters:
+  title: 'Render Proxy'
+  route_name: render_proxy.config.filters
+  parent: system.admin_config_system
+  description: 'Configure filters that alter the rendered markup of all pages.'

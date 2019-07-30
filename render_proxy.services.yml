@@ -1,0 +1,5 @@
+services:
+
+  plugin.manager.render_proxy.filter:
+    class: Drupal\render_proxy\Plugin\RenderProxyFilterManager
+    arguments: ['@container.namespaces', '@cache.discovery', '@module_handler']

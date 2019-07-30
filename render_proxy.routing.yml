@@ -1,0 +1,9 @@
+render_proxy.config.filters:
+  path: 'admin/config/system/render-proxy'
+  defaults:
+    _form: 'Drupal\render_proxy\Form\RenderProxySettingsForm'
+    _title: 'Render Proxy Configuration'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    admin_route: TRUE
